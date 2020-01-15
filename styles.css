@@ -1,0 +1,64 @@
+body{
+    margin-top: 100px;
+}
+
+.container {
+    z-index: 100;
+    position:fixed;
+    top:0px;
+    overflow: hidden;
+    display: inline-flex;
+    width: 100%;
+    contain: paint;
+    margin: 0px;
+}
+#grippy {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    background-color: #292929;
+    cursor: move;
+    -webkit-app-region: drag;
+    display: inline-block;
+    width: 100%;
+    height: 23px;
+}
+.buttons {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    -webkit-app-region: none;
+    float: right;
+}
+.buttons button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.buttons button:hover {
+    background-color: slategrey;
+}
+
+.menubtn {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    -webkit-app-region: none;
+    float: right;
+}
+.menubtn a {
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.menubtn a:hover {
+    text-decoration: none;
+    background-color: slategrey;
+    color: white;
+}
