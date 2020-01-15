@@ -1,6 +1,6 @@
-## Electron App Template with UIKit
+# Electron App Template with UIKit
 
-# How to start
+## How to start
  
 step 1: `npm install`
 
